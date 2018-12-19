@@ -20,6 +20,11 @@ namespace Calculator
         private void numInput1_ValueChanged(object sender, EventArgs e)
         {
             calc(int.Parse(numInput1.Value.ToString()), int.Parse(numInput2.Value.ToString()));
+
+
+
+
+
         }
 
         private void numInput2_ValueChanged(object sender, EventArgs e)
